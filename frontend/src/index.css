@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap");
+
+* {
+  font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  min-height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(#ffe4e1, #f5fffa);
+  padding: 2rem 0;
+}
+
+h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#a27b33, #eb8d13);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+h2 {
+  text-align: center;
+  padding: 12px 0;
+  font-weight: bold;
+  font-size: 40px;
+  color: #b09724;
+}
+.frame {
+  width: 85%;
+  max-width: 1000px;
+  min-height: 300px;
+  margin: auto;
+  background-color: #d3d3d3;
+  border-radius: 6px;
+  box-sizing: border-box;
+  padding: 12px 16px;
+}
+
+.smallFrame {
+  width: 300px;
+  margin: 16px auto;
+  padding: 12px;
+  background-color: #7a7add;
+  border-radius: 6px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: snow;
+}
+
+input {
+  display: block;
+  padding: 8px 12px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+button {
+  margin: 30px 0;
+  background-color: #f5fffa;
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  padding: 5px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #233135;
+  color: white;
+}
+
+.signup-link a,
+.login-link a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+.signup-link,
+.login-link {
+  text-align: center;
+}
+
+.signup-link a,
+.login-link a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.signup-link a:hover,
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+/* user description */
+.user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button.logout {
+  display: inline;
+  max-width: 150px;
+  margin: 0;
+}
+
+.user-desc {
+  gap: 6px;
+  display: flex;
+  margin: 0;
+}
+
+.user-name {
+  color: rgb(187, 110, 16);
+}
